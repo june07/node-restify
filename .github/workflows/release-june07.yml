@@ -27,9 +27,9 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
           scope: '@667'
-
       - run: npm install
       - run: npm ci
+      - run: echo "registry=https://registry.npmjs.org/@667" >> .npmrc
       - run: npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
