@@ -77,10 +77,10 @@
   "version": "8.5.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/restify/node-restify.git"
+    "url": "git://github.com/june07/restify/node-restify.git"
   },
   "bugs": {
-    "url": "https://github.com/restify/node-restify/issues"
+    "url": "https://github.com/june07/restify/node-restify/issues"
   },
   "main": "lib/index.js",
   "directories": {
