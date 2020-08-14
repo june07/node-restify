@@ -45,7 +45,7 @@ jobs:
           scope: '@june07'
       - run: npm install
       - run: npm ci
-      - run: echo "registry=https://npm.pkg.github.com/@june07" >> .npmrc
+      - run: echo "registry=https://npm.pkg.github.com" >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
